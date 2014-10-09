@@ -1,0 +1,42 @@
+// Place all the styles related to the Tarea controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+* {
+   font-family: Arial;
+}
+
+table {
+
+  margin-top: 50px;
+}
+
+.completo_true {
+
+  text-decoration: line-through;
+ }
+.vencida {
+    color:red;
+}
+
+.vigente{
+    color:green;  
+}
+
+.notice {
+   color:green;
+   background-color:#98E1C9;
+}
+
+.borrar {
+    background-color:#98E1C9;
+
+}
+
+p {
+  
+   margin:0px;
+margin-bottom: 5px;
+
+}

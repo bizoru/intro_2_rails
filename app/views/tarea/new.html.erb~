@@ -1,0 +1,12 @@
+<h2> Crear una nueva Tarea :) </h2>
+<%= form_for @tarea , url: '/tarea' , html: { method: 'post' } do |f| %>
+    <%= f.label :nombre %>
+    <%= f.text_field :nombre %>
+    
+    <%= f.label :vencimiento%>
+    <%= f.date_field :vencimiento%>
+   
+   
+    <%= f.submit "Crear" %>
+  
+<% end %>

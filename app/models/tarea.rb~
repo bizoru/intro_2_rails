@@ -11,8 +11,6 @@ class Tarea < ActiveRecord::Base
 
    def defaults
       self.vencimiento ||= DateTime.now + 1
-      if self.nombre.blank? 
-         self.nombre = "La tarea sin nombre :("
-      end
+      self.nombre ||= "La tarea sin nombre :("
    end
 end

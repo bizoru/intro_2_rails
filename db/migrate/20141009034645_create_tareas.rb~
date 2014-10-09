@@ -4,6 +4,7 @@ class CreateTareas < ActiveRecord::Migration
       t.string :nombre
       t.date :vencimiento , :default => DateTime.now + 1
       t.boolean :completo
+
       t.timestamps
     end
   end
