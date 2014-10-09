@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nombre: MyString
+  vencimiento: 2014-10-08
+  completo: false
+
+two:
+  nombre: MyString
+  vencimiento: 2014-10-08
+  completo: false
